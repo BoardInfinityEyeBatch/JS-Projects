@@ -23,6 +23,6 @@ function tellGreeting()
     else 
     mes="Good Night!";
 
-    op.innerHTML=hr+' '+mes;
+    op.innerHTML=mes;
 
 }
