@@ -1,10 +1,9 @@
-headButton=document.querySelector("#head")
-tailButton=document.querySelector("#tail")
+button=document.querySelectorAll("button")
 output=document.querySelector(".output")
 let headCount=0
 let tailCount=0
 
-headButton.addEventListener("click",
+button[0].addEventListener("click",
 ()=>{
     headCount++
      message = `You Clicked Head, Total count of Head:${headCount} , Tail:${tailCount}`
@@ -13,7 +12,7 @@ headButton.addEventListener("click",
     output.innerHTML=message
 }
 )
-tailButton.addEventListener("click",
+button[1].addEventListener("click",
 ()=>{
     tailCount++
      message = `You Clicked Tail, Total count of Head:${headCount} , Tail:${tailCount}`
