@@ -7,7 +7,7 @@ function tellGreeting()
     let dat=new Date();
     let mes="not assigned";
     let hr =dat.getHours();
-    
+
     if(hr>1||hr<12)
     {
     mes="Good Morning!";
